@@ -1,0 +1,18 @@
+{
+    "env": {
+        "commonjs": true,
+        "es2021": true,
+        "node": true
+    },
+    "extends": ["airbnb-base", "plugin:prettier/recommended", "plugin:security/recommended"], 
+    "plugins": ["prettier", "security"],
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "rules": {
+        "no-console": "error",
+        "consistent-return": "off",
+        "func-names": "off",
+        "security/detect-object-injection": "off"
+    }
+}

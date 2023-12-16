@@ -1,0 +1,23 @@
+{
+  "name": "kal-token",
+  "version": "1.0.0",
+  "description": "token service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.7",
+    "jsonwebtoken": "^9.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kal-kidan/token-service.git"
+  },
+  "author": "kal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kal-kidan/token-service/issues"
+  },
+  "homepage": "https://github.com/kal-kidan/token-service#readme"
+}

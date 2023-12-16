@@ -1,0 +1,2 @@
+city-big.json file is not included in the git repository since it is big
+but you can download it from this link https://github.com/zemirco/sf-city-lots-json/blob/master/citylots.json

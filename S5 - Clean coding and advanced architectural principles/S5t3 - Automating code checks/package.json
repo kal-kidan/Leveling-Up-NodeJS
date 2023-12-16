@@ -1,0 +1,45 @@
+{
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "prettier": "prettier --check **/*.js",
+    "prettier:fix": "prettier --check **/*.js",
+    "lint-staged": "lint-staged",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@meanie/mongoose-to-json": "^2.6.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.7",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-xss-sanitizer": "^1.1.6",
+    "helmet": "^7.0.0",
+    "http-status": "^1.6.2",
+    "joi": "^17.8.3",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.9.2",
+    "morgan": "^1.10.0",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.1",
+    "rate-limiter-flexible": "^2.4.1",
+    "validator": "^13.9.0",
+    "winston": "^3.8.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.44.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier": "^5.0.0-alpha.2",
+    "eslint-plugin-security": "^1.7.1",
+    "husky": "^8.0.0",
+    "lint-staged": "^13.2.3",
+    "nodemon": "^2.0.21",
+    "prettier": "^3.0.0"
+  }
+}
